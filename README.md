@@ -5,7 +5,7 @@ This example is meant for people to potentially understand more thoroughly how t
 
 Please make sure that you NEVER share your Client Secret or Tokens with ANYONE - they are passwords, so treat them as such.
 
-For Apps you want to distribute, you will want to choose to run either with the implicit authentication flow or let the user provide their own application details - the latter of which is a bit frowned upon, as the app technically is still made by a developer, not the end user, so the client_id used to generate a token should be identifying the developer.
+For Apps you want to distribute, you will want to choose to run either with the implicit authentication flow (which is not utilized in this example) or let the user provide their own application details - the latter of which is a bit frowned upon, as the app technically is still made by a developer, not the end user, so the client_id used to generate a token should be identifying the developer.
 
 # Config
 To use the config file, rename it to ``config.json`` and modify the values accordingly, or create a new file.
