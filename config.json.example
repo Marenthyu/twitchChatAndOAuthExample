@@ -1,0 +1,7 @@
+{
+  "clientid": "aaa",
+  "secret": "bbb",
+  "lasttoken": "ccc",
+  "debug": false,
+  "usertoken": false
+}
