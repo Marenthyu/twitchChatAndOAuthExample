@@ -156,7 +156,7 @@ if __name__ == '__main__':
     if "user_id" not in verifyResponse:
         if config["usertoken"]:
             print(
-                "The provided token is an App Access Token, but you requested an App Access Token. Please delete the \"lasttoken\" from the config and start again.")
+                "The provided token is an App Access Token, but you requested a User Access Token. Please delete the \"lasttoken\" from the config and start again.")
             exit(1)
         else:
             print(
